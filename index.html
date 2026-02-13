@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Security Check</title>
+    <title>Valentine Check</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -26,12 +26,12 @@
             </div>
         </div>
 
-        <!-- Step 2: The Grid (Round 1 & 2) -->
-        <div class="captcha-modal hidden" id="captcha-modal">
+        <!-- Step 2: Valentine CAPTCHA Grid -->
+        <div class="captcha-modal hidden valentine-mode" id="captcha-modal">
             <div class="modal-header" id="modal-header">
-                <h3>Select all images with</h3>
-                <h1 id="instruction-text">traffic lights</h1>
-                <p>Click verify once there are none left.</p>
+                <h3>Select all hearts</h3>
+                <h1 id="instruction-text">your valentine</h1>
+                <p>Click verify once you’ve selected them all.</p>
             </div>
 
             <div class="grid-container" id="grid">
@@ -44,7 +44,6 @@
                     <span class="icon-audio">🎧</span>
                     <span class="icon-info">ⓘ</span>
                 </div>
-                <!-- Loading bubbles container inside button handled by JS -->
                 <button class="verify-btn" id="verify-btn" disabled>VERIFY</button>
             </div>
         </div>
