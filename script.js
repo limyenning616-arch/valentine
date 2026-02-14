@@ -8,7 +8,7 @@ const headerTitle = document.getElementById('instruction-text');
 let selectedTiles = new Set();
 
 const VALENTINE_IMAGES = [
-    'assets/valentine-1.png',
+    'assets/untitled-1.png',
     'assets/valentine-2.png',
     'assets/valentine-3.png',
     'assets/valentine-4.png',
