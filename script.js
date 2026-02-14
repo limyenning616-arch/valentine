@@ -35,7 +35,7 @@ checkbox.addEventListener('click', () => {
 function startValentineCaptcha() {
 
     captchaModal.classList.add('valentine-mode');
-    headerTitle.innerText = "Select all the hearts 💖";
+    headerTitle.innerText = "Select your valentine 💖";
 
     setupGrid();
 }
