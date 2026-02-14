@@ -255,6 +255,25 @@ body {
     margin-bottom: 20px;
 }
 
+/* Mobile adjustments for success screen */
+@media (max-width: 480px) {
+    .success-screen h1 {
+        font-size: 2.5em;  /* Smaller headline on mobile */
+        margin-bottom: 15px;
+    }
+
+    .success-gif {
+        width: 280px;      /* Make GIF bigger */
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .success-screen p {
+        font-size: 1.2em;  /* Optional: slightly smaller text */
+    }
+}
+
+
 @keyframes heartbeat {
     0% { transform: scale(1); }
     15% { transform: scale(1.1); }
@@ -263,7 +282,8 @@ body {
     60% { transform: scale(1); }
 }
 
-.success-screen p {
+.success-screen p { 
+    font-family: "Vollkorn", serif;
     color: #880e4f;
     font-size: 1.5em;
     font-weight: 500;
