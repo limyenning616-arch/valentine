@@ -9,14 +9,14 @@ let selectedTiles = new Set();
 
 const VALENTINE_IMAGES = [
     'assets/untitled-1.png',
-    'assets/valentine-2.png',
-    'assets/valentine-3.png',
-    'assets/valentine-4.png',
-    'assets/valentine-5.png',
-    'assets/valentine-6.png',
-    'assets/valentine-7.png',
-    'assets/valentine-8.png',
-    'assets/valentine-9.png'
+    'assets/untitled-2.png',
+    'assets/untitled-3.png',
+    'assets/untitled-4.png',
+    'assets/untitled-5.png',
+    'assets/untitled-6.png',
+    'assets/untitled-7.png',
+    'assets/untitled-8.png',
+    'assets/untitled-9.png'
 ];
 
 // 1️⃣ Click Checkbox → Go straight to Valentine CAPTCHA
