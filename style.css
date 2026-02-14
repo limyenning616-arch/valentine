@@ -245,7 +245,7 @@ body {
     color: #c2185b;
     font-size: 4em;
     margin-bottom: 20px;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'El Messiri', sans-serif;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
     animation: heartbeat 1.5s infinite;
 }
