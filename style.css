@@ -226,7 +226,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #ff9597;
+    background-color: #F3CFC6;
     background-image: url('assets/poppies.png');
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -262,6 +262,12 @@ body {
     font-size: 1.5em;
     font-weight: 500;
     max-width: 80%;
+}
+
+.success-gif {
+    width: 220px;
+    max-width: 80%;
+    margin-bottom: 20px;
 }
 
 @keyframes fadeIn {
